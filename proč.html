@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baxtrix - Proč? | Inspirace a motivace za projektem</title>
+    <meta name="description" content="Zjistěte, proč je Baxtrix inspirativní osobnost. Přečtěte si o důvodech výběru tohoto YouTubera jako tématu projektu.">
+    <meta name="keywords" content="Baxtrix, inspirace, motivace, příběh, osobní rozvoj">
+    <meta name="author" content="Martin Noufus, IT1B">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/profil.jpg" alt="Profilový obrázek Baxtrixe" class="header-image">
+            <nav>
+                <ul>
+                    <li><a href="život.html">Život</a></li>
+                    <li><a href="práce.html">Práce</a></li>
+                    <li><a href="index.html">Domovní stránka</a></li>
+                    <li><a href="proč.html" class="active">Proč</a></li>
+                    <li><a href="fotogalerie.html">Fotogalerie</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <article class="container">
+            <h1>⭐ Proč jsem si ho vybral</h1>
+            
+            <section>
+                <p>YouTubera Baxtrix jsem si vybral jako téma svého portfolia především proto, že jeho cesta je velmi inspirativní. Nejde pouze o úspěch, ale hlavně o odvahu udělat velkou změnu a začít znovu na jiné scéně.</p>
+                
+                <h2>Zaujalo mě na něm:</h2>
+                <ul>
+                    <li>Odvaha opustit českou scénu a hledat nové příležitosti</li>
+                    <li>Schopnost tvořit v cizím jazyce a překonat jazykové bariéry</li>
+                    <li>Neustálá snaha o zlepšování a osobní rozvoj</li>
+                    <li>Přístup ke tvorbě videí jako k seriózní práci, ne jen zábavě</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>Ponaučení z jeho příběhu</h2>
+                <p>Jeho příběh ukazuje, že i tvorba videí na YouTube vyžaduje:</p>
+                <ul>
+                    <li>Silnou disciplínu a organizaci</li>
+                    <li>Dlouhodobou trpělivost a vytrvalost</li>
+                    <li>Uměleckou kreativitu a originalitu</li>
+                    <li>Vědomé a dlouhodobé úsilí bez slev</li>
+                </ul>
+                
+                <p>Baxtrix je pro mě příkladem toho, že když má člověk jasný cíl a je ochotný na sobě pracovat, může se posouvat dál i přes překážky a nepředvídanou situace.</p>
+            </section>
+        </article>
+
+        <!-- Registrační formulář -->
+        <section style="text-align: center; margin: 3rem 0;">
+            <h2>Chcete sledovat Baxtrixe?</h2>
+            <p>Přihlaste se k odběru novinek a dozvěďte se první o novém obsahu:</p>
+        </section>
+
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <div class="form-group">
+                <label for="name">Vaše jméno:</label>
+                <input 
+                    type="text" 
+                    id="name" 
+                    name="name" 
+                    required 
+                    placeholder="Zadejte vaše jméno"
+                    aria-required="true"
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="email">Vaše e-mailová adresa:</label>
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    required 
+                    placeholder="vas.email@example.com"
+                    aria-required="true"
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="password">Heslo (pro přístup k exclusive obsahu):</label>
+                <input 
+                    type="password" 
+                    id="password" 
+                    name="password" 
+                    required 
+                    placeholder="Vytvořte si heslo"
+                    aria-required="true"
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="content_type">Jaký obsah vás zajímá?</label>
+                <select id="content_type" name="content_type" required aria-required="true">
+                    <option value="">-- Vyberte typ obsahu --</option>
+                    <option value="gaming">Herní obsah</option>
+                    <option value="tutorials">Návody a tutoriály</option>
+                    <option value="vlogs">Vlog a denní rutina</option>
+                    <option value="challenges">Výzvy a experimenty</option>
+                    <option value="all">Vše uvedené</option>
+                </select>
+            </div>
+
+            <div class="form-group checkbox-group">
+                <input 
+                    type="checkbox" 
+                    id="agree" 
+                    name="agree" 
+                    required
+                    aria-required="true"
+                >
+                <label for="agree" style="margin-bottom: 0;">Souhlasím s podmínkami ochrany osobních údajů</label>
+            </div>
+
+            <button type="submit">Odeslat registraci</button>
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p><strong>© 2026 Martin N. Školní projekt IT1B.</strong></p>
+        </div>
+        <div class="footer-bottom">
+            <p>Tento web je školním projektem věnovaným tvůrci obsahu Baxtrixovi.</p>
+        </div>
+    </footer>
+</body>
+</html>
