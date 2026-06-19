@@ -1,0 +1,1 @@
+# Stranka_o_Baxovi
